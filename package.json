@@ -9,5 +9,8 @@
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.10.x"
   }
 }
