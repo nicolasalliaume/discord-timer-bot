@@ -43,7 +43,10 @@ client.on( 'message', async message => {
 
     if ( ! isBotCommand( message ) ) return; // skip general messages
 
-    if ( ! isProfe( username ) ) return; // skip students messages for now
+    if ( ! isProfe( username ) ) {
+        // skip students messages for now
+        return message.channel.send(`I only respond to The Profes 🙅‍♂️`)
+    }
 
     const command = content.split( / +/ )
 
