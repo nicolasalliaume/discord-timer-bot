@@ -11,6 +11,6 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "12.10.x"
+    "node": "12.16.x"
   }
 }
